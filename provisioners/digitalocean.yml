@@ -23,7 +23,7 @@
         region: "{{ item.region | default('nyc3') }}"
         # Customize this default for your account.
         ssh_keys:
-          - "{{ item.ssh_key | default('138954') }}"
+          - "{{ item.ssh_key | default('28971735') }}"
         unique_name: yes
       register: created_droplets
       with_items: "{{ droplets }}"
